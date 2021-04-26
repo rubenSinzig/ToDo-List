@@ -6415,12 +6415,12 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Dancing Script", Arial, Helvetica, sans-serif;
-  color: #fdcee2;
+  color: #e7e7e7;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-body div {
+body section {
   width: 40%;
   height: 75%;
   display: flex;
@@ -6428,13 +6428,31 @@ body div {
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
-body div h1 {
-  border-bottom: 1px solid;
+body section input {
+  color: #e7e7e7;
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #e7e7e7;
 }
-body div ul {
+body section input:focus {
+  outline: none;
+}
+body section input::placeholder {
+  color: #f5708b;
+}
+body section button {
+  background-color: transparent;
+  border: none;
+  color: #e7e7e7;
+}
+body section button:focus {
+  outline: none;
+}
+body section ul {
   align-self: flex-start;
+  line-height: 2.5rem;
 }
 
 /*# sourceMappingURL=main.css.map */
