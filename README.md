@@ -22,7 +22,7 @@
 
 ---
 
-[![Screenshot from Project](/src/images/readme-screenshot.png)](#)
+[![Screenshot from Project](/src/images/project-screenshot.png)](#)
 
 ### About Project
 
