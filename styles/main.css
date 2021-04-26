@@ -6404,4 +6404,37 @@ readers do not read off random characters that represent icons */
   width: auto;
 }
 
+@font-face {
+  font-family: "Dancing Script";
+  src: url(../../fonts/DancingScript-VariableFont_wght.ttf);
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../../images/Background-Image-ToDo-List.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+  color: #fdcee2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body div {
+  width: 40%;
+  height: 75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  font-size: 1.5rem;
+}
+body div h1 {
+  border-bottom: 1px solid;
+}
+body div ul {
+  align-self: flex-start;
+}
+
 /*# sourceMappingURL=main.css.map */
