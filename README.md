@@ -43,8 +43,8 @@ Creating an ToDo List App with HTML, SCSS and JavaScript. The goal is to add a n
 
 ### Contact
 
-Mail: <ruben.sinzig@posteo.de>
-GitHub: [rubenSinzig](https://github.com/rubenSinzig)
+Mail: <ruben.sinzig@posteo.de><br>
+GitHub: [rubenSinzig](https://github.com/rubenSinzig)<br>
 LinkedIn: [Ruben Sinzig](#)
 
 ---
