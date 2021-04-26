@@ -7,18 +7,35 @@ body {
   font-family: "Dancing Script", Arial, Helvetica, sans-serif;
   @include font-color(def);
   @include center;
-
-  div {
+  section {
     @include box-size;
     @include center;
     justify-content: flex-start;
     flex-direction: column;
-    font-size: 1.5rem;
-    h1 {
-      border-bottom: 1px solid;
+    font-size: 1.4rem;
+    input {
+      color: #e7e7e7;
+      background-color: transparent;
+      border: none;
+      border-bottom: 2px solid #e7e7e7;
+      &:focus {
+        outline: none;
+      }
+      &::placeholder {
+        @include font-color(re);
+      }
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      color: #e7e7e7;
+      &:focus {
+        outline: none;
+      }
     }
     ul {
       align-self: flex-start;
+      line-height: 2.5rem;
     }
   }
 }
