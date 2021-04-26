@@ -1,0 +1,21 @@
+// colors for font
+@mixin font-color($color) {
+  @if map-has-key($font-colors, $color) {
+    color: map-get($font-colors, $color);
+  } @else {
+    @error "#{$color} is not defined, use .src/abstracts/_variables.scss -> #{font-colors}";
+  }
+}
+
+// center items
+@mixin center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+// box size
+@mixin box-size {
+  width: 40%;
+  height: 75%;
+}

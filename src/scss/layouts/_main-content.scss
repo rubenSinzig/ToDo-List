@@ -5,4 +5,20 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   font-family: "Dancing Script", Arial, Helvetica, sans-serif;
+  @include font-color(def);
+  @include center;
+
+  div {
+    @include box-size;
+    @include center;
+    justify-content: flex-start;
+    flex-direction: column;
+    font-size: 1.5rem;
+    h1 {
+      border-bottom: 1px solid;
+    }
+    ul {
+      align-self: flex-start;
+    }
+  }
 }
