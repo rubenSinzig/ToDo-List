@@ -2,7 +2,7 @@
 
 ## ToDo List
 
-**[View Project](#)**
+**[View Project](https://rubensinzig.github.io/ToDo-List/)**
 
 ---
 
@@ -22,7 +22,7 @@
 
 ---
 
-[![Screenshot from Project](/src/images/project-screenshot.png)](#)
+[![Screenshot from Project](/src/images/project-screenshot.png)](https://rubensinzig.github.io/ToDo-List/)
 
 ### About Project
 
@@ -30,11 +30,11 @@ Creating an ToDo List App with HTML, SCSS and JavaScript. The goal is to add a n
 
 ##### Developed With
 
-- [x] _HTML5_
+- [x] _HTML5_ --> [go to file](https://github.com/rubenSinzig/ToDo-List/blob/main/src/index.html)
 - [ ] _CSS3_
 - [ ] _SASS_
-- [x] _SCSS_
-- [x] _JavaScript_
+- [x] _SCSS_ --> [go to folder](https://github.com/rubenSinzig/ToDo-List/tree/main/src/scss)
+- [x] _JavaScript_ --> [go to file](https://github.com/rubenSinzig/ToDo-List/blob/main/src/scripts/index.js)
 - [ ] _React_
 - [ ] _Bootstrap_
 - [ ] _..._
