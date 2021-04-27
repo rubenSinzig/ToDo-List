@@ -47,10 +47,15 @@ body {
       }
     }
     ul {
-      width: 90%;
+      width: 80%;
+      height: 80%;
+      // overflow: auto !!!!!!
+      overflow: auto;
       align-self: flex-start;
       line-height: 2.5rem;
       li {
+        // overflow-wrap: break-word;
+        // word-wrap: break-word;
         display: flex;
         justify-content: space-between;
       }
