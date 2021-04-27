@@ -6462,5 +6462,13 @@ body section ul {
   align-self: flex-start;
   line-height: 2.5rem;
 }
+body section ul li {
+  width: 30vw;
+  display: flex;
+  justify-content: space-between;
+}
+body .completed {
+  text-decoration: line-through;
+}
 
 /*# sourceMappingURL=main.css.map */
