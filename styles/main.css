@@ -6434,7 +6434,7 @@ body .crayon {
   right: 0;
   width: 30vh;
   height: 30vh;
-  background-image: url(../../images/crayons.png);
+  background-image: url("../images/crayons.png");
   background-size: 100%;
   background-repeat: no-repeat;
   z-index: -1;
@@ -6471,15 +6471,15 @@ body section button:focus {
   outline: none;
 }
 body section ul {
-  /* !!! */
+  width: 80%;
+  height: 80%;
+  overflow: auto;
   align-self: flex-start;
   line-height: 2.5rem;
 }
 body section ul li {
-  width: 50vw;
-  height: 3rem;
-  overflow-wrap: break-word;
-  word-wrap: break-word;
+  display: flex;
+  justify-content: space-between;
 }
 body .completed {
   text-decoration: line-through white;
