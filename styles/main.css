@@ -6428,17 +6428,29 @@ body {
   justify-content: center;
   align-items: center;
 }
+body .crayon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30vh;
+  height: 30vh;
+  background-image: url(../../images/crayons.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  z-index: -1;
+}
 body section {
-  width: 40%;
+  width: 55%;
   height: 75%;
   display: flex;
   justify-content: center;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
 body section input {
+  width: 70%;
   color: #e7e7e7;
   background-color: transparent;
   border: none;
@@ -6459,16 +6471,18 @@ body section button:focus {
   outline: none;
 }
 body section ul {
+  /* !!! */
   align-self: flex-start;
   line-height: 2.5rem;
 }
 body section ul li {
-  width: 30vw;
-  display: flex;
-  justify-content: space-between;
+  width: 50vw;
+  height: 3rem;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 body .completed {
-  text-decoration: line-through;
+  text-decoration: line-through white;
 }
 
 /*# sourceMappingURL=main.css.map */
