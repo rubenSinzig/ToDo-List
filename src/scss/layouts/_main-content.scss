@@ -37,6 +37,14 @@ body {
     ul {
       align-self: flex-start;
       line-height: 2.5rem;
+      li {
+        width: 30vw;
+        display: flex;
+        justify-content: space-between;
+      }
     }
+  }
+  .completed {
+    text-decoration: line-through;
   }
 }

@@ -25,6 +25,12 @@ const addToList = () => {
     // Adding class
     doneButton.classList.add("done");
     newLi.appendChild(newContainer);
+    // delete and check
+    const check = () => newLi.classList.toggle("completed");
+    const del = () => newLi.remove();
+    //
+    deleteButton.addEventListener("click", del);
+    doneButton.addEventListener("click", check);
   } else {
     document.querySelector("#userData").placeholder = "Please Enter Item";
   }
