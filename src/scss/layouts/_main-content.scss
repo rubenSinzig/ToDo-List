@@ -8,13 +8,25 @@ body {
     Helvetica, sans-serif;
   @include font-color(def);
   @include center;
+  .crayon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30vh;
+    height: 30vh;
+    background-image: url(../../images/crayons.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    z-index: -1;
+  }
   section {
     @include box-size;
     @include center;
     justify-content: flex-start;
     flex-direction: column;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     input {
+      width: 70%;
       color: #e7e7e7;
       background-color: transparent;
       border: none;
@@ -35,16 +47,16 @@ body {
       }
     }
     ul {
+      width: 90%;
       align-self: flex-start;
       line-height: 2.5rem;
       li {
-        width: 30vw;
         display: flex;
         justify-content: space-between;
       }
     }
   }
   .completed {
-    text-decoration: line-through;
+    text-decoration: line-through white;
   }
 }

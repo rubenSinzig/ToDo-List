@@ -43,3 +43,12 @@ const colorGen = () => {
   result += colorCodeArr[Math.floor(Math.random() * colorCodeArr.length)];
   return result;
 };
+
+// Functional check which key the user is pressing
+const keyCheck = (event) => {
+  if (event.key == "Enter") addToList();
+};
+
+// Adding event listener to the input
+const userInput = document.querySelector("#userData");
+userInput.addEventListener("keypress", keyCheck);
